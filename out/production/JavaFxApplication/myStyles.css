@@ -1,0 +1,24 @@
+
+.button
+{
+-fx-font: bold italic 20pt "Arial";
+-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+.label {
+-fx-font-size: 12pt;
+-fx-font-weight: bold;
+-fx-text-fill: #333333;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+.vBox {
+-fx-background-image: url('kingdice-pr.jpg');
+}
+#pane{
+   -fx-background-image: url('splash.jpg');
+   -fx-background-repeat: stretch;
+   -fx-background-position: center center;
+}
